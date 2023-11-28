@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles_promos.css">
+    <link rel="stylesheet" href="CSS/styles_contacto.css">
+    <link rel="stylesheet" href="CSS/footer_style.css">
+    <script src="JS/control.js"></script>
+    <title>Domino's</title>
+</head>
+<body>
+
+    <div class="h-1 bg-dark text-white">
+        <img src="IMG/HEADER.jpg" alt="" class="headerImg">
+    </div>  
+
+    <nav class="navbar navbar-expand-sm navbar-dark dominos">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)"><img src="IMG/logo.jpg" alt="" class="logo rounded p-1"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('inicio')">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('promociones')">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('contacto')">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="inicio" class="container">   
+
+  <div class="contenedor">
+    <div class="big-img">
+      <a href="https://www.dominos.com.mx/pages/order/?couponCode_0=199SDO&partnerCode=DOMINOS&so=hp&panelname=&panelnumber=&couponAddedAt=Home#!/locations/search/">
+        <img src="IMG/img1.jpg" alt="">
+      </a>
+    </div>
+    <div class="rigth-img">
+      <a href="https://www.dominos.com.mx/pages/order/?couponCode_0=GO199&partnerCode=DOMINOS&so=hp&panelname=&panelnumber=&couponAddedAt=Home#!/locations/search/">
+        <img src="IMG/img2.jpg" alt="">
+      </a>
+    </div>
+    <div class="rigth-img2">
+      <a href="https://www.dominos.com.mx/pages/order/?couponCode_0=GO199&partnerCode=DOMINOS&so=hp&panelname=&panelnumber=&couponAddedAt=Home#!/locations/search/">
+        <img src="IMG/img3.jpg" alt="">
+      </a>
+    </div>
+    <div class="footer-img">
+      <a href="https://www.dominos.com.mx/pages/order/?couponCode_0=GO199&partnerCode=DOMINOS&so=hp&panelname=&panelnumber=&couponAddedAt=Home#!/locations/search/">
+        <img src="IMG/img4.jpg" alt="">
+      </a>
+    </div>
+  </div>
+
+    </div>
+
+    <div id="promociones" class="container hidden">
+
+      <div class="container-fluid rounded mt-4 title">
+        <p class="fs-6">PROMOCIONES NACIONALES DOMINNO'S</p>
+    </div>
+
+    <div class="container-fluid padre">
+
+        <div class="card mb-1 div-card container-fluid padre1">
+            <img src="IMG/promo1.jpg" class="card-img-top rounded mt-1" alt="...">
+            <div class="card-body">
+              <strong class="precio">$199</strong>
+              <h5 class="card-title fs-5">Grande Original</h5>
+              <p>Domino's grande Original 1 a 9 ingredientes por $199</p>
+            </div>
+          </div>
+
+          <div class="card mb-1 div-card container-fluid padre2">
+            <img src="IMG/promo2.jpg" class="card-img-top rounded mt-1" alt="...">
+            <div class="card-body">
+              <strong class="precio">$199</strong>
+              <h5 class="card-title fs-5">Pizza Grande Sarten</h5>
+              <p>Pizza Grande Sartén 1 ingrediente $199 (hazla de 2 a 4 ingredientes por +$50).</p>
+            </div>
+          </div>
+
+          <div class="card mb-1 div-card container-fluid padre3">
+            <img src="IMG/promo3.jpg" class="card-img-top rounded mt-1" alt="...">
+            <div class="card-body">
+              <strong class="precio">$298</strong>
+              <h5 class="card-title">2 Pizzas Grandes Original</h5>
+              <p>2 Pizzas Grandes Original 1 ingrediente $298 (hazla de 2 a 4 ingredientes por +$50).</p>
+            </div>
+          </div>
+
+          <div class="card mb-1 div-card container-fluid padre4">
+            <img src="IMG/promo4.jpg" class="card-img-top rounded mt-1" alt="...">
+            <div class="card-body">
+              <strong class="precio">$109</strong>
+              <h5 class="card-title">Dominuggets</h5>
+              <p>Nuggets de pollo con empanizado crujiente, acompañados de las clásicas Papotas y un Cup</p>
+            </div>
+          </div>
+
+    </div>
+
+    </div>
+
+    <div id="contacto" class="container hidden">
+        <div class="container">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre(s)</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Direccion</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Calles</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Telefono</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Indicaciones especiales</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+      <div class="contenedor-footer">
+        <nav aria-label="breadcrumb migajas">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Internacional</li>
+          </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"></li>
+            <li class="breadcrumb-item active" aria-current="page">Avisdo de privacidad</li>
+          </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"></li>
+            <li class="breadcrumb-item active" aria-current="page">Viviendo en equilibrio</li>
+          </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"></li>
+            <li class="breadcrumb-item active" aria-current="page">¿Quienes somos?</li>
+          </ol>
+        </nav>
+        </div>
+        
+        <div class="iconos">
+          <ul>
+            <li><img src="IMG/FACEBOOK.jpg" alt=""></li>
+            <li><img src="IMG/INSTAGRAM.jpg" alt=""></li>
+            <li><img src="IMG/TWITTER.jpg" alt=""></li>
+          </ul>
+        </div>
+        
+        <div class="contexto container-fluid">
+          <p>Monto mínimo por orden para entrega a domicilio de $149 pesos. Todas nuestras entregas son gratis. Nuestras tiendas están abiertas de Lunes a Domingo de 11:00 am a 11:00 pm en la mayoría de nuestras localizaciones, para más información encuentra tu tienda más cercana. Precios y/o promociones varían por tienda y están sujetos a cambio sin previo aviso. No se penaliza a nuestros repartidores por entrega tardía.</p>
+          <p>Para encontrar un restaurante local de Domino's Pizza o cuando busques "pizza cerca de mí", por favor visita nuestra herramienta de mapa que te mostrará las <strong class="strong">tiendas</strong> cercanas a tu posición disponibles para entrega a domicilio o recoger en tienda. </p>
+          <p>¿Estás buscando pizza para <strong class="strong">entrega a domicilio</strong> o recoger en tienda? Deja que Domino’s llene ese espacio especial en tu corazón. Puede que suene rídiculo, pero queremos ser tu restaurante de pizza preferido. Nos encanta entregarle a nuestros fans las mejores <strong class="strong">promociones de pizza</strong> que tenemos que ofrecer. La próxima vez que estés pensando en comida cerca de mí, no te olvides de Domino’s. </p>
+        </div>
+
+    </footer>
+</body>
+</html>
